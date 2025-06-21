@@ -44,3 +44,21 @@ main {
 a {
     color: #FFFFFF;
 }
+
+.nav > div > button {
+
+    /* padding: 5px; */
+    font-weight: 600;
+    font-size: 12px;
+    height: 48px;
+    width: 154px;
+    border-radius: 20px
+
+}
+
+.primary-button {
+
+    background-color: #302C42;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
