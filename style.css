@@ -5,16 +5,42 @@
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+
+    background-color: #302C42;
+;
+}
+
+main {
+
+    font-family:"Montserrat";
+}
+
+
+
 .nav {
     display: flex;
     justify-content: space-around;
-
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 12px;
+    
 }
 
 .nav > div {
-
+    
     display: flex;
     width: 30%;
     justify-content: space-evenly;
     align-items: anchor-center;
+    /* color:#FFFFFF; */
+}
+
+a {
+    color: #FFFFFF;
 }
