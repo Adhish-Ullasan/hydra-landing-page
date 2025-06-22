@@ -45,7 +45,7 @@ a {
     color: #FFFFFF;
 }
 
-.nav > div > button {
+.primary-button{
 
     /* padding: 5px; */
     font-weight: 600;
@@ -65,5 +65,10 @@ a {
 
 .secondary-button {
 
-        background-image: linear-gradient(to right, #8176AF, #C0B7E8);    
+    font-weight: 600;
+    font-size: 12px;
+    height: 48px;
+    width: 154px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #8176AF, #C0B7E8);    
 }
