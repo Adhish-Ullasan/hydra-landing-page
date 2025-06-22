@@ -62,3 +62,8 @@ a {
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
 }
+
+.secondary-button {
+
+        background-image: linear-gradient(to right, #8176AF, #C0B7E8);    
+}
