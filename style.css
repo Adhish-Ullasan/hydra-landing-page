@@ -37,12 +37,10 @@ main {
 .nav > div {
     
     display: flex;
-    width: 30%;
-    justify-content: flex-start;
     align-items: anchor-center;
     column-gap: 10px;
     width: auto;
-    /* color:#FFFFFF; */
+
 }
 
 a {
@@ -93,11 +91,21 @@ a {
 
 .container {
     max-width: 1272px;
-    margin: auto;
+    margin: 0 auto;
 
 }
 
-.nav :nth-child(2) {
+ /* .nav div:nth-child(2) {
 
-    justify-content: space-between;
+    width: 400px;
+} */
+
+.nav > div:nth-child(2) {
+    
+    column-gap: 45px;
+}
+
+.nav > div:nth-child(3) {
+
+    column-gap: 20px;
 }
