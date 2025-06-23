@@ -164,3 +164,8 @@ footer > div > div {
     display: flex;
     align-items: anchor-center;
 }
+
+.vr {
+    border-right: 1px solid;
+    min-height: 10px;
+}
