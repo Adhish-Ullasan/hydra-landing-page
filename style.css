@@ -188,7 +188,7 @@ a {
     color: #FFFFFF;
 }
 
-#page-2 > div > div {
+#page-2 > div:first-child > div {
 
     display: flex;
     line-height: 2rem;
