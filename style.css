@@ -188,12 +188,11 @@ a {
     color: #FFFFFF;
 }
 
-#page-2 > div:first-child {
+#page-2 > div > div {
 
     display: flex;
+    line-height: 2rem;
+    
 }
 
-#page-2 > div > h1 {
-     
-    line-height:  2rem;
-}
+
