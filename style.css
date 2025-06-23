@@ -152,12 +152,12 @@ a {
     padding-right: 1rem;
 }
 
-footer {
+#contact-details {
 
-    padding-top: 3rem;
+    padding: 3rem;
 }
 
-footer > div {
+#contact-details > div {
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
@@ -165,7 +165,7 @@ footer > div {
     border-radius: 90px;
     padding: 2rem;
 }
-footer > div > div {
+#contact-details > div > div {
 
     display: flex;
     align-items: anchor-center;
@@ -175,4 +175,10 @@ footer > div > div {
 .vr {
     border-right: 1px solid;
     min-height: 10px;
+    color: #ffffff62;
+}
+
+#contact-details > div > div > div:nth-child(2) > p:first-child{
+
+    font-weight: 700;
 }
