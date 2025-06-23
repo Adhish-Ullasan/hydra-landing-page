@@ -112,7 +112,7 @@ a {
     color: #FFFFFF;
 }
 
-#phrase h1 #D {
+#phrase h1 #firstline {
     background: linear-gradient(to left, #8176AF, #C0B7E8);
     -webkit-background-clip: text;
     background-clip: text;
@@ -120,7 +120,7 @@ a {
 
 }
 
-#phrase h1 #v1 {
+#phrase h1 #secondline {
 
      background: linear-gradient(to right,#8176AF, #C0B7E8);
     -webkit-background-clip: text;
