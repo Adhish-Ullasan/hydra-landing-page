@@ -72,23 +72,6 @@ a {
     background-image: linear-gradient(to right, #8176AF, #C0B7E8);    
 }
 
-#phrase h1 #D {
-    background: linear-gradient(to left, #8176AF, #C0B7E8);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-
-#phrase h1 #v1 {
-
-     background: linear-gradient(to right,#8176AF, #C0B7E8);
-    -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-
 .container {
     max-width: 1272px;
     margin: 0 auto;
@@ -116,9 +99,49 @@ a {
     justify-content: space-between;
 
 }
-.taglines > div {
+.taglines > div:first-child {
 
+    padding-top: 4rem;
+    padding-left: 3rem;
+
+
+}
+
+#phrase > h1 {
+
+    color: #FFFFFF;
+}
+
+#phrase h1 #D {
+    background: linear-gradient(to left, #8176AF, #C0B7E8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#phrase h1 #v1 {
+
+     background: linear-gradient(to right,#8176AF, #C0B7E8);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.taglines > div > div:nth-child(2) {
+
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 40px 0px;
+}
+
+.taglines > div > div:nth-child(3) {
+
+    max-width: fit-content;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    column-gap: 20px;
+    align-items: anchor-center;
+    padding-top: 1rem;
 }
