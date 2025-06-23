@@ -187,3 +187,13 @@ a {
 
     color: #FFFFFF;
 }
+
+#page-2 > div:first-child {
+
+    display: flex;
+}
+
+#page-2 > div > h1 {
+     
+    line-height:  2rem;
+}
