@@ -156,6 +156,8 @@ footer > div {
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
+    background: linear-gradient(to right, #211E2E,#3A3456F2,#211E2E);
+    border-radius: 90px;
 }
 footer > div > div {
 
