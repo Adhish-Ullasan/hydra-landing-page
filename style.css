@@ -109,3 +109,16 @@ a {
 
     column-gap: 20px;
 }
+
+.taglines {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.taglines > div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
