@@ -24,11 +24,13 @@ main {
 
 
 .nav {
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: Montserrat;
     font-weight: 700;
     font-size: 12px;
+    padding: 2rem;
     
 }
 
@@ -36,13 +38,16 @@ main {
     
     display: flex;
     width: 30%;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: anchor-center;
+    column-gap: 10px;
+    width: auto;
     /* color:#FFFFFF; */
 }
 
 a {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .primary-button{
@@ -52,15 +57,11 @@ a {
     font-size: 12px;
     height: 48px;
     width: 154px;
-    border-radius: 20px
-
-}
-
-.primary-button {
-
+    border-radius:40px;
     background-color: #302C42;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
+
 }
 
 .secondary-button {
@@ -69,6 +70,34 @@ a {
     font-size: 12px;
     height: 48px;
     width: 154px;
-    border-radius: 20px;
+    border-radius: 40px;
     background-image: linear-gradient(to right, #8176AF, #C0B7E8);    
+}
+
+#phrase h1 #D {
+    background: linear-gradient(to left, #8176AF, #C0B7E8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#phrase h1 #v1 {
+
+     background: linear-gradient(to right,#8176AF, #C0B7E8);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.container {
+    max-width: 1272px;
+    margin: auto;
+
+}
+
+.nav :nth-child(2) {
+
+    justify-content: space-between;
 }
