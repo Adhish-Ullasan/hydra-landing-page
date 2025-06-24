@@ -191,8 +191,20 @@ a {
 #page-2 > div:first-child > div {
 
     display: flex;
+    align-items: flex-start;
     line-height: 2rem;
-    
 }
 
+#page-2 > div {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#description {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
