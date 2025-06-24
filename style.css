@@ -214,7 +214,23 @@ a {
 
 .hydra-about > div:first-child {
 
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-right: 3rem;
+}
+
+#description > div > h1 {
+
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+#description div:nth-child(3) {
+
+    padding-top: 2rem;
+}
+
+#description div:nth-child(2) {
+
+       line-height: 2rem;
 }
 
