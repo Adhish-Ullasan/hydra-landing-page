@@ -338,8 +338,11 @@ a {
 
 #hardware .technologies > button {
 
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
-    background: linear-gradient(to left, #8176AF, #C0B7E8)
+    border: none;
+    background: linear-gradient(to left,#C0B7E8, #8176AF)
 }
 
 
