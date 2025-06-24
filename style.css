@@ -342,7 +342,10 @@ a {
     width: 60px;
     border-radius: 50%;
     border: none;
-    background: linear-gradient(to left,#C0B7E8, #8176AF)
+    background: linear-gradient(to left,#C0B7E8, #8176AF);
+    position: relative;
+    left: 46%;
+    top: 100px;
 }
 
 
