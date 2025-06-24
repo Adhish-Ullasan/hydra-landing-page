@@ -199,12 +199,22 @@ a {
 
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2rem;
 }
 
 #description {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    column-gap: 100px;
+}
+
+.hydra-about > div:first-child {
+
+    padding-top: 2rem;
+    padding-right: 3rem;
 }
 
