@@ -311,6 +311,26 @@ a {
 
 }
 
+#hardware {
+
+    color: #FFFFFF;
+}
+
+#technologies > div >h1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: anchor-center;
+    line-height: 3
+}
+
+#technologies > div:first-child {
+
+    background-image: url(./images/vrlady.png);
+}
+
+
+
 
 
 
