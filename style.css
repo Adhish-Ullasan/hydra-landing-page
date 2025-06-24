@@ -349,6 +349,13 @@ a {
     top: 100px;
 }
 
+#techSections {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: anchor-center;
+}
+
 
 
 
