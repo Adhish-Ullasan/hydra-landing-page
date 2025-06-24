@@ -19,6 +19,7 @@ body {
 main {
 
     font-family:"Montserrat";
+    padding-bottom: 100px;
 }
 
 
@@ -314,20 +315,28 @@ a {
 #hardware {
 
     color: #FFFFFF;
+    min-height: 303px;
 }
 
-#technologies > div >h1 {
 
-    display: flex;
-    flex-direction: column;
-    align-items: anchor-center;
-    line-height: 3
-}
-
-#technologies > div:first-child {
-
+#hardware .technologies {
+    min-height: 300px;
     background-image: url(./images/vrlady.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: grid;
+    place-content: center;
 }
+
+#hardware .technologies > h4 {
+    font-weight: 300;
+    margin-top: 2rem;
+
+}
+
+
 
 
 
