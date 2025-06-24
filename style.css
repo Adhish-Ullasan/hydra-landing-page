@@ -250,8 +250,15 @@ a {
 #page-3 > div:first-child > div:first-child {
 
     display: flex;
-    max-width: fit-content;
+    justify-content: flex-start;
     column-gap: 2rem;
+    flex-basis: 50%;
+}
+
+#page-3 > div:first-child > div:last-child {
+
+    flex-basis: 50%;
+    line-height: 2;
 }
 
 #page-3 > div:first-child > div:first-child > h1 {
@@ -263,6 +270,8 @@ a {
 
     display: flex;
     justify-content: space-between;
+    column-gap: 2rem;
+    margin-bottom: 3rem;
 }
 
 .hr {
@@ -294,6 +303,16 @@ a {
 
     padding-top: 1rem;
 }
+
+#page-3 > div:first-child > div:first-child > img {
+
+            max-width: 228px;
+            max-height: 100px;
+
+}
+
+
+
 
 
 
