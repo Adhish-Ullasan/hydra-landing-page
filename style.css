@@ -69,7 +69,8 @@ a {
     height: 48px;
     width: 154px;
     border-radius: 40px;
-    background-image: linear-gradient(to right, #8176AF, #C0B7E8);    
+    background-image: linear-gradient(to right, #8176AF, #C0B7E8);
+    border: none;    
 }
 
 .container {
