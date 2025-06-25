@@ -356,6 +356,19 @@ a {
     align-items: anchor-center;
 }
 
+#buildHydra .Build {
+    color: #FFFFFF;
+}
+
+.Build > div > div > h4 {
+
+    font-weight: 300;
+}
+
+.Build > div :first-child h1 {
+    display: flex;
+    align-items: anchor-center;
+}
 
 
 
