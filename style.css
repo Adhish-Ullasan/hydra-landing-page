@@ -367,14 +367,13 @@ a {
 
 .Build > div:first-child > div:first-child {
     display: flex;
-    align-items: anchor-center;
     justify-content: flex-start;
     column-gap: 2rem;
     flex-basis: 50%;
 }
 
 .Build > div:first-child > div:first-child > h1 {
-    line-height: 2;
+    line-height: 2rem;
 }
 
  .Build > div:first-child > div:first-child > img {
