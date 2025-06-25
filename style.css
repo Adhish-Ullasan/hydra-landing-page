@@ -390,6 +390,10 @@ a {
     line-height: 2;
     flex-basis: 50%;
  }
+ .buildOptions {
+    display: flex;
+    justify-content:space-around;
+ }
 
 
 
