@@ -381,6 +381,16 @@ a {
     max-height: 100px;
  }
 
+ .Build > div:first-child {
+    display: flex;
+ }
+
+ .Build > div:first-child > div:last-child > p {
+
+    line-height: 2;
+    flex-basis: 50%;
+ }
+
 
 
 
