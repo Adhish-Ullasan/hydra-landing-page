@@ -383,6 +383,7 @@ a {
 
  .Build > div:first-child {
     display: flex;
+    margin-bottom: 2rem;
  }
 
  .Build > div:first-child > div:last-child > p {
@@ -394,12 +395,14 @@ a {
  .buildOptions {
     display: flex;
     justify-content:space-around;
+    padding-top: 2rem;
  }
 
  .optionName {
 
     display: flex;
     justify-content: space-around;
+    margin-top: 2rem;
  }
 
  .optionName > div {
