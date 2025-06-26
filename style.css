@@ -417,6 +417,29 @@ a {
     max-height: 22.33px;
  }
 
+#joinhydra .join {
+    color: #FFFFFF;
+    background: radial-gradient(#433D60,#211E2E);
+    border-radius: 50px;
+}
+
+.join > div:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.join > div:first-child > h2 {
+    padding-top: 2rem;
+}
+
+.join > div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+
+}
+
+
  
 
 
