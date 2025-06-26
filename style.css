@@ -549,6 +549,11 @@ footer > div:last-child {
     justify-content: center;
  }
 
+ .hr {
+    max-width: 800px;
+    margin: auto;
+ }
+
 
 
 
