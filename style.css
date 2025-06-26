@@ -532,10 +532,16 @@ footer {
 
 footer > div:last-child {
     row-gap: 2rem;
+
 }
  footer > div:first-child > img {
     width: 185px;
     height: 187px;
+ }
+
+ .footerOptions > div > div {
+    display: flex;
+    justify-content: space-between;
  }
 
 
