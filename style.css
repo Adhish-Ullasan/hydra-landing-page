@@ -409,6 +409,11 @@ a {
     line-height: 25px;
  }
 
+ .optionName > div > img{
+    max-width: 27.92px;
+    max-height: 22.33px;
+ }
+
  
 
 
