@@ -419,15 +419,16 @@ a {
 
 #joinhydra .join {
     color: #FFFFFF;  
+    background: radial-gradient(#433D60,#211E2E);
+    border-radius: 40px;
 }
 
 form {
-    background: radial-gradient(#433D60,#211E2E);
-    border-radius: 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: 1008px;;
 }
 
 .join > div:first-child {
@@ -449,6 +450,7 @@ form {
 form div {
     display: flex;
     justify-content: space-around;
+  
 } 
 
 form > div > div > input {
@@ -456,6 +458,7 @@ form > div > div > input {
     border-radius: 40px;
     margin: 10px ;
     height: 72px;
+    width: 524px;
     border: 1px solid #ffffff;
 }
 
@@ -463,13 +466,48 @@ form > div:nth-child(3) > input {
     background: linear-gradient(#433D60,#211E2E);
     border-radius: 40px;
     margin: 10px 0;
+    height: 72px;
+    width: 1058px;
+    border: 1px solid #FFFFFF;
 }
 
 form > div:nth-child(4) > textarea {
     background: linear-gradient(#433D60,#211E2E);
     border-radius: 40px;
     margin: 10px 0;
+    height: 210px;
+    width: 1058px;
+    border: 1px solid #ffffff;
+} 
+
+form > div:last-child {
+    margin-bottom: 2rem;
 }
+
+::placeholder {
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+    right: 40%;
+}
+
+
+form > div:last-child > button {
+    margin-top: 2rem;
+
+}
+
+#subject::placeholder {
+    position: relative;
+    right: 45%;
+}
+
+#text::placeholder {
+    position: relative;
+    top: 10%;
+}
+    
+
 
 
 
