@@ -544,6 +544,11 @@ footer > div:last-child {
     justify-content: space-between;
  }
 
+ .footerOptions div:last-child {
+    display: flex;
+    justify-content: center;
+ }
+
 
 
 
