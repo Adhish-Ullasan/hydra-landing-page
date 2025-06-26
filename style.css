@@ -390,11 +390,26 @@ a {
     line-height: 2;
     flex-basis: 50%;
  }
+
  .buildOptions {
     display: flex;
     justify-content:space-around;
  }
 
+ .optionName {
+
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .optionName > div {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    line-height: 25px;
+ }
+
+ 
 
 
 
