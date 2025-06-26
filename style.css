@@ -507,11 +507,20 @@ form > div:last-child > button {
     top: 10%;
 }
 
+.join {
+    margin-bottom: 2rem;
+}
+
 footer {
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
 }
+
+.vR {
+    border: 1px solid #ffffff;
+}
+
 
 
 
