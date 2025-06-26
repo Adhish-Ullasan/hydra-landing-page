@@ -418,9 +418,16 @@ a {
  }
 
 #joinhydra .join {
-    color: #FFFFFF;
+    color: #FFFFFF;  
+}
+
+form {
     background: radial-gradient(#433D60,#211E2E);
     border-radius: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .join > div:first-child {
@@ -429,15 +436,21 @@ a {
 }
 
 .join > div:first-child > h2 {
-    padding-top: 2rem;
+    margin-top: 2rem;
 }
 
 .join > div:nth-child(3) {
     display: flex;
     justify-content: center;
-    padding-top: 2rem;
+    margin: 2rem;
 
 }
+
+form div {
+    display: flex;
+    justify-content: space-around;
+} 
+
 
 
  
