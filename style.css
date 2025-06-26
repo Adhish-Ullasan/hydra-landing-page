@@ -507,7 +507,11 @@ form > div:last-child > button {
     top: 10%;
 }
 
-
+footer {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
