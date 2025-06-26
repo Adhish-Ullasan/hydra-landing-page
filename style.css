@@ -451,6 +451,20 @@ form div {
     justify-content: space-around;
 } 
 
+form > div > div > input {
+    background: linear-gradient(#433D60,#211E2E);
+}
+
+form > div:nth-child(3) > input {
+    background: linear-gradient(#433D60,#211E2E);
+}
+
+form > div:nth-child(4) > textarea {
+    background: linear-gradient(#433D60,#211E2E);
+}
+
+input 
+
 
 
  
