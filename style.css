@@ -645,8 +645,15 @@ footer > div:last-child {
     .Build > div:first-child > div:first-child > img {
         display: none;
     }
+}
 
-
+@media screen and (max-width:750px) {
+    .buildOptions {
+        display: flex;
+        flex-direction: column;
+        align-items: anchor-center;
+    }
+    
 }
 
     
