@@ -32,6 +32,7 @@ main {
     font-weight: 700;
     font-size: 12px;
     padding: 2rem 0;
+    align-items: center;
     
 }
 
@@ -557,6 +558,12 @@ footer > div:last-child {
     max-width: 800px;
     margin: auto;
  }
+ 
+ .nav > div:last-child{
+    display: none;
+    max-width: 33px;
+    max-height: 26px;
+ }
 
   @media screen and (max-width: 1270px) {
     #page-3 > div:nth-child(2) {
@@ -569,8 +576,12 @@ footer > div:last-child {
         display: none;
     }
 
-    .nav > div:last-child {
+    .nav > div:nth-child(3) {
         display: none;
+    }
+
+    .nav > div:last-child {
+        display: block;
     }
   } 
 
