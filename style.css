@@ -607,7 +607,19 @@ footer > div:last-child {
         display: none;
     }
     
+    form > div:nth-child(3) > textarea {
+        width: 100%;
+    }
+    
+    .hydra-about > div > div > img {
+        width: 100%;
+    }
+
+    .taglines > div:nth-child(2) > img {
+        width: 100%;
+    }
   } 
+
 
 @media screen  and (max-width: 970px) {
     #techSections {
