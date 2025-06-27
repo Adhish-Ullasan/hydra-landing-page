@@ -78,8 +78,8 @@ a {
 .container {
     max-width: 1272px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
 
 }
 
@@ -356,9 +356,10 @@ a {
 
 #techSections {
 
-    display: flex;
-    justify-content: space-around;
-    align-items: anchor-center;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 1rem;
+        align-items: center;
 }
 
 #buildHydra .Build {
@@ -401,6 +402,7 @@ a {
     display: flex;
     justify-content:space-around;
     padding-top: 2rem;
+    padding-left: 2rem;
  }
 
  .optionName {
@@ -479,16 +481,21 @@ form > div:nth-child(2) > input {
 form > div:nth-child(3) > textarea {
     background: linear-gradient(#433D60,#211E2E);
     border-radius: 40px;
-    margin: 2rem 0;
+    margin-top: 2rem;
     border: 1px solid #ffffff;
     min-height: 210px;
     min-width: 100%;
 } 
 
 form > div:last-child {
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
+form > div:last-child > button {
+    margin-bottom: 2rem;
+}
 ::placeholder {
     color: #FFFFFF;
     position: relative;
@@ -586,7 +593,16 @@ footer > div:last-child {
     }
   } 
 
-@media screen  and (max-width: 1092) {
+@media screen  and (max-width: 970px) {
+    #techSections {
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    #techSections > div {
+        display: grid;
+        justify-content: center;
+    }
     
 }
 
