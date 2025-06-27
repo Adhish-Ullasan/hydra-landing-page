@@ -77,6 +77,8 @@ a {
 .container {
     max-width: 1272px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -283,9 +285,11 @@ a {
     padding: 1rem;
 }
 
-#page-3 >div:nth-child(2) {
+#page-3 > div:nth-child(2) {
 
-    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
 }
 
 #page-3 >div:nth-child(2) > div {
@@ -554,8 +558,25 @@ footer > div:last-child {
     margin: auto;
  }
 
+  @media screen and (max-width: 1270px) {
+    #page-3 > div:nth-child(2) {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
 
+    .options > div {
+        display: none;
+    }
 
+    .nav > div:last-child {
+        display: none;
+    }
+  } 
+
+    
+
+ 
 
 
 
