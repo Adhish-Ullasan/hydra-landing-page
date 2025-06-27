@@ -508,8 +508,9 @@ form > div:last-child > button {
 }
 
 #text::placeholder {
-    position: relative;
-    top: 100%;
+    position: absolute;
+    top: 10%;
+    right: 82%;
 }
 
 .join {
