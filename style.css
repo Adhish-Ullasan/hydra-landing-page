@@ -683,7 +683,7 @@ footer > div:last-child {
         line-height: 2;
         margin-bottom: 2rem;
     }
-    
+
 }
 
 @media screen and (max-width:800px) {
@@ -769,6 +769,19 @@ footer > div:last-child {
      #page-2 > div:first-child > div {
         justify-content: center;
      }
+
+    #techSections {
+        display: block;
+    }
+
+    .Build > div:first-child > div:first-child > h1 {
+        margin-bottom: 2rem;
+    }
+
+    .buildOptions > div > div {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and(max-width:576px) {
