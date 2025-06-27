@@ -78,8 +78,8 @@ a {
 .container {
     max-width: 1272px;
     margin: 0 auto;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -402,7 +402,6 @@ a {
     display: flex;
     justify-content:space-around;
     padding-top: 2rem;
-    padding-left: 2rem;
  }
 
  .optionName {
@@ -602,6 +601,10 @@ footer > div:last-child {
     #techSections > div {
         display: grid;
         justify-content: center;
+    }
+
+    .taglines > div > div:nth-child(2) {
+        display: none;
     }
     
 }
