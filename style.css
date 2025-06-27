@@ -430,10 +430,9 @@ a {
 
 form {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-height: 1008px;;
+    margin: 0 auto;
+    max-width: 1058px;
+
 }
 
 .join > div:first-child {
@@ -452,37 +451,38 @@ form {
 
 }
 
-form div {
-    display: flex;
-    justify-content: space-around;
+form > div:first-child {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
   
-} 
-
 form > div > div > input {
     background: linear-gradient(#433D60,#211E2E);
     border-radius: 40px;
-    margin: 10px ;
-    height: 72px;
-    width: 524px;
+    min-height: 72px;
     border: 1px solid #ffffff;
+    margin-top: 10px;
+    min-width: 100%;
 }
 
-form > div:nth-child(3) > input {
+form > div:nth-child(2) > input {
     background: linear-gradient(#433D60,#211E2E);
     border-radius: 40px;
     margin: 10px 0;
-    height: 72px;
-    width: 1058px;
     border: 1px solid #FFFFFF;
+    min-height: 72px;
+    min-width: 100%;
+    margin-top: 2rem;
 }
 
-form > div:nth-child(4) > textarea {
+form > div:nth-child(3) > textarea {
     background: linear-gradient(#433D60,#211E2E);
     border-radius: 40px;
-    margin: 10px 0;
-    height: 210px;
-    width: 1058px;
+    margin: 2rem 0;
     border: 1px solid #ffffff;
+    min-height: 210px;
+    min-width: 100%;
 } 
 
 form > div:last-child {
@@ -509,7 +509,7 @@ form > div:last-child > button {
 
 #text::placeholder {
     position: relative;
-    top: 10%;
+    top: 100%;
 }
 
 .join {
@@ -584,6 +584,10 @@ footer > div:last-child {
         display: block;
     }
   } 
+
+@media screen  and (max-width: 1092) {
+    
+}
 
     
 
