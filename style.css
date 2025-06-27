@@ -404,6 +404,13 @@ a {
     padding-top: 2rem;
  }
 
+ .buildOptions > div > div {
+        display: flex;
+        justify-content: flex-start;
+        line-height: 2rem;
+        gap: 10px;
+ }
+
  .optionName {
 
     display: flex;
