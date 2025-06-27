@@ -722,6 +722,7 @@ footer > div:last-child {
     .taglines > div:nth-child(2) {
         display: flex;
         justify-content: center;
+        padding-right: 0;
     }
 
     #phrase > h1 {
