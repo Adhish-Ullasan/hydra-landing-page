@@ -602,6 +602,11 @@ footer > div:last-child {
     .nav > div:last-child {
         display: block;
     }
+    
+    #hardware .technologies > button {
+        display: none;
+    }
+    
   } 
 
 @media screen  and (max-width: 970px) {
@@ -627,7 +632,9 @@ footer > div:last-child {
 
 @media screen and (max-width: 950px){
     #page-2 > div {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #page-2 > div:first-child > div > img {
@@ -635,7 +642,9 @@ footer > div:last-child {
     }
 
     #page-3 > div {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #page-3 > div:first-child > div:first-child > img {
@@ -643,12 +652,38 @@ footer > div:last-child {
     }
 
     .Build > div:first-child {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
 
     .Build > div:first-child > div:first-child > img {
         display: none;
     }
+
+    .hydra-about > div:first-child {
+        justify-content: center;
+    }
+
+    #description {
+        align-items: center;
+    }
+
+    #page-2 > div:first-child > div {
+        line-height: 2;
+        margin-bottom: 2rem;
+    }
+
+    #description > div > h1 {
+        line-height: 2;
+    }
+
+    #page-3 > div:first-child > div:first-child > h1 {
+        line-height: 2;
+        margin-bottom: 2rem;
+    }
+    
 }
 
 @media screen and (max-width:800px) {
@@ -688,9 +723,9 @@ footer > div:last-child {
 
     }
 
-    .secondary-button {
+    /* .secondary-button {
         width: 100%;
-    }
+    } */
 
     #description div:nth-child(3) {
         display: flex;
@@ -702,9 +737,44 @@ footer > div:last-child {
     }
 
     #page-3 > div:nth-child(2) {
-        display: block;
+            display: flex;
+            flex-direction: column
     }
 
+    
+    #description > div > h1 {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width:680px){
+    
+    #contact-details > div > .contactDetails {
+        display: none;
+    } 
+    .vr {
+        display: none;
+    }
+
+     #contact-details > div > .vr {
+        display: none;
+     }
+
+     #page-2 > div:first-child > div > p {
+        display: none;
+     }
+
+     #page-2 > div:first-child > div {
+        justify-content: center;
+     }
+}
+
+@media screen and(max-width:576px) {
+    #techSections {
+        display: block;
+    }
     
 }
 
