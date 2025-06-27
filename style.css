@@ -104,6 +104,11 @@ a {
     justify-content: space-between;
 
 }
+
+.taglines > div:last-child{
+    display: none;
+}
+
 .taglines > div:first-child {
 
     padding-top: 4rem;
@@ -614,6 +619,34 @@ footer > div:last-child {
         display: none;
     }
     
+}
+
+@media screen and (max-width: 950px){
+    #page-2 > div {
+        display: block;
+    }
+
+    #page-2 > div:first-child > div > img {
+        display: none;
+    }
+
+    #page-3 > div {
+        display: block;
+    }
+
+    #page-3 > div:first-child > div:first-child > img {
+        display: none;
+    }
+
+    .Build > div:first-child {
+        display: block;
+    }
+
+    .Build > div:first-child > div:first-child > img {
+        display: none;
+    }
+
+
 }
 
     
