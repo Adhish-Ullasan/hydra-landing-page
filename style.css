@@ -729,10 +729,39 @@ footer > div:last-child {
         padding-right: 0;
     }
 
+    
     #phrase > h1 {
         display: none;
     }
+    .taglines > div:nth-child(3)  {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+         color: #FFFFFF;
 
+}
+    }
+
+    h1 #firstline {
+    background: linear-gradient(to left, #8176AF, #C0B7E8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+
+ h1 #secondline {
+
+     background: linear-gradient(to right,#8176AF, #C0B7E8);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+}
+
+    
     .taglines > div:last-child {
         display: flex;
         justify-content: center;
