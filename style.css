@@ -619,9 +619,9 @@ footer > div:last-child {
         width: 100%;
     }
 
-    .taglines > div:nth-child(2) > img {
+    /* .taglines > div:nth-child(2) > img {
         width: 100%;
-    }
+    } */
   } 
 
 
@@ -771,7 +771,7 @@ footer > div:last-child {
 
     .taglines > div:last-child > button {
 
-        width: 100%;
+        width: 292px;
     }
 
     /* .secondary-button {
