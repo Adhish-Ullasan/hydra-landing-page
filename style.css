@@ -792,11 +792,11 @@ footer > div:last-child {
         width: 100%;
     } */
 
-    #description div:nth-child(3) > button {
+    #description div:last-child > button {
         width:100%
     }
 
-    #description div:nth-child(3) {
+    #description div:last-child {
         display: flex;
         justify-content: center;
         width: 100%;
