@@ -769,6 +769,11 @@ footer > div:last-child {
 
     }
 
+    .taglines > div:last-child > button {
+
+        width: 100%;
+    }
+
     /* .secondary-button {
         width: 100%;
     } */
