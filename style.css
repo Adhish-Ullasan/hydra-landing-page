@@ -746,7 +746,7 @@ footer > div:last-child {
          color: #FFFFFF;
 
 }
-    }
+    
 
     h1 #firstline {
     background: linear-gradient(to left, #8176AF, #C0B7E8);
@@ -803,7 +803,6 @@ footer > div:last-child {
         display: none;
     }
 
-    
 }
 
 @media screen and (max-width:680px){
